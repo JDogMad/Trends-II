@@ -1,0 +1,105 @@
+/* HTML VERSION OF THE PDF-VERSION */
+/* ALGEMEEN */
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.wrapper {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    max-width: 960px;
+
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/* HEAD */
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #f4f4f4;
+}
+
+.title {
+    font-family: 'League Gothic', sans-serif;
+    font-size: 25px;
+
+    text-align: center;
+}
+
+/* MAIN */
+.main {
+    margin-top: 30px;
+}
+
+.info {
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 20px;
+
+    margin-bottom: 30px;
+}
+
+.banner {
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+    object-fit: contain;
+}
+
+.num1 {
+    border: solid 1px black;
+}
+
+.ticket_type {
+    font-family: 'League Gothic', sans-serif;
+    font-size: 30px;
+
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.num2 {
+    border: solid 1px black;
+
+    width: 256px;
+}
+
+.gen_info {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+
+.num3 {
+    border: solid 1px black;
+
+    width: 256px;
+    height: auto;
+}
+
+input[type=text] {
+    display: none;
+}
+
+.qrcode {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* FOOTER */
+.sponsors {
+    display: flex;
+    align-items: center;
+
+    margin-top: 30px;
+}
